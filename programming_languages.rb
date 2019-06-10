@@ -8,9 +8,11 @@ def reformat_languages(languages)
            :type => lang_info[:type],
            :style => [style]
          }
+      else
+         new_hash[lang][:style].push (style)
       end
 
-       puts new_hash
+      puts new_hash
     end
   end
   return new_hash
