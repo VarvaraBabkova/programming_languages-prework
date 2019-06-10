@@ -12,9 +12,10 @@ def reformat_languages(languages)
          new_hash[lang][:style].push (style)
       end
 
-      puts new_hash
     end
   end
+  puts new_hash
+
   return new_hash
 end
 
