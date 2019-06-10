@@ -9,7 +9,7 @@ def reformat_languages(languages)
            :style => [style]
          }
       end
-      
+
        puts new_hash
     end
   end
